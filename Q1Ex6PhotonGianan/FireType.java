@@ -10,8 +10,8 @@ package exercise06photongianansam;
  * @author PHOTON
  */
 public class FireType extends Monster {
-    public FireType(String n, int b){
-        super("Chamander", "Fire", "Grass", "Water", 75, b);
+    public FireType(String n, int m, int b){
+        super(n, "Fire", "Grass", "Water", m, b);
         atk = 1.3 * b;
         def = 0.7 * b;
     }
