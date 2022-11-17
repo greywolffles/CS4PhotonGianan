@@ -10,8 +10,8 @@ package exercise06photongianansam;
  * @author PHOTON
  */
 public class GrassType extends Monster {
-    public GrassType(String n, int b){
-        super("Bulbasaur", "Grass", "Water", "Fire", 75, b);
+    public GrassType(String n, int m, int b){
+        super(n, "Grass", "Water", "Fire", m, b);
         atk = b;
         def = b;
     }
